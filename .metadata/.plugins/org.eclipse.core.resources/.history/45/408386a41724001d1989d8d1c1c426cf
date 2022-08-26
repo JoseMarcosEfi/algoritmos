@@ -1,0 +1,14 @@
+package algoritmos;
+
+import java.util.ArrayList;
+
+public class main {
+
+	public static void main(String[] args) {
+		System.out.println("Sua lista foi criada automaticamente!");
+		System.out.println("Qual metodo de organização ira usar?");
+		ArrayList<Integer> minhalista = new ArrayList<>();
+
+	}
+
+}

@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\VOTOGAMES\OneDrive\Documentos\workspace\ws-algoritimos\.metadata\.plugins\org.eclipse.jdt.core
+4216474909.index
+1735587839.index
+1865797976.index
