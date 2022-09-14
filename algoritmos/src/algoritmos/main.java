@@ -3,6 +3,7 @@ package algoritmos;
 import java.util.ArrayList;
 
 import algoritmos.sort.BubbleSort;
+import algoritmos.sort.SelectionSort;
 
 public class main {
 
@@ -20,8 +21,10 @@ public class main {
 		System.out.println("Qual metodo de organização ira usar?");
 		
 		BubbleSort bs = new BubbleSort();
+		SelectionSort ss = new SelectionSort();
 		
-		System.out.println(bs.BubbleSort(minhalista));
+		//System.out.println(bs.BubbleSort(minhalista));
+		System.out.println(ss.selectionSort(minhalista));
 		
 	}
 

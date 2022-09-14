@@ -4,13 +4,11 @@ import java.util.ArrayList;
 
 public class BubbleSort {
 
-	public ArrayList<Integer> BubbleSort(ArrayList<Integer> arrayList) {
-		ArrayList<Integer> bubble = new ArrayList<>();
-		bubble.addAll(arrayList);
-		// variavéis
-		int a = 0, b = 0;
+	public ArrayList<Integer> BubbleSort(ArrayList<Integer> bubble) {
+		
+		int a = 0, b = 0, count =1;
 		boolean sair = false;
-		int count = 1;
+		
 		while (sair == false) {
 			// fazendo a troca de posições
 			for (int i = bubble.size() - 1; i > 0; i--) {
